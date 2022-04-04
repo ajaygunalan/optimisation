@@ -20,6 +20,15 @@ I assume you know, gradient of f(x) = 0 and Hessian f''(x) < 0 at minimum point.
 3. How to find descent direction? d = -Ag 
 	- If A=1, then it is Steepest Descent Method.
 	- Then, look at how it converges for circular, elliptical contours and for rosenbrock functions.
+	- 
+## 13. Steepest Descent Method
+1. Convergence
+	- It depends upon the condition number H.
+	- For circular contours (1 iteration)
+	- For elliptical takes more iterations.
+
+## 14. Classical Netwon Method
+
 
 
 
