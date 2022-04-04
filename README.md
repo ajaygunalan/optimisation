@@ -27,6 +27,14 @@ I assume you know, gradient of f(x) = 0 and Hessian f''(x) < 0 at minimum point.
 	- For elliptical takes more iterations.
 
 ## 14. Classical Netwon Method
+1. If d = -H^(-1)g, it is the classical Netwon method. At each point, we replace the function locally with a convex quadratic function and solve it in one step. Then, we go to the next point.
+2. In the case of SDM, we replace each point with a line (first-order Taylor series).
+3. Provides smooth convergence, less sensitivity to start point compared to Steepest.
+### Downsides
+1. Requires O(n3) computational effort for every iteration
+2. No guarantee that d is a descent direction
+3. No guarantee that f (xk+1) < f (xk) (no line search)
+4. Sensitive to initial point (for non-quadratic functions)
 
 
 
