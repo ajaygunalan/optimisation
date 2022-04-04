@@ -36,6 +36,11 @@ I assume you know, gradient of f(x) = 0 and Hessian f''(x) < 0 at minimum point.
 3. No guarantee that f (xk+1) < f (xk) (no line search)
 4. Sensitive to initial point (for non-quadratic functions)
 
+## 15.
+## 16.
+## 17.
+## 18. 
+
 
 
 
